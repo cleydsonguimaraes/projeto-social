@@ -6,16 +6,25 @@
 }
 
 body {
-    min-width: 100vw;
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     background: url(../imagens/fundo-madeira.jpg) no-repeat fixed;
     background-size: cover;
 }
 
  main {
-    width: 50vw;
-    height: 70vh;
+    width: 100vw;
+    position: relative;
     background: url(../imagens/frame-iphone.png)no-repeat;
+}
+
+main > iframe {
+    position: relative;
+    max-width: 42vw;
+    min-height: 52vh;
+
+    bottom: -8.5vh;
+    left: 3.5vw;
 }
 
 .home {
