@@ -6,89 +6,28 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 98vw;
+    height: 98vh;
     background: url(../imagens/fundo-madeira.jpg) no-repeat fixed;
     background-size: cover;
 }
 
- main {
-    width: 100vw;
-    position: relative;
-    background: url(../imagens/frame-iphone.png)no-repeat;
+ main section {
+    width: 25vw;
+    height: 70vh;
+    background: url(../imagens/frame-iphone.png) no-repeat;
 }
 
-main > iframe {
+main section > iframe {
     position: relative;
-    max-width: 42vw;
+    max-width: 38vw;
     min-height: 52vh;
 
     bottom: -8.5vh;
-    left: 3.5vw;
+    left: 2vw;
 }
 
-.home {
-    position: relative;
-    width: 15vw;
-    height: 10vh;
-    background: url(../imagens/logo-home.jpg) no-repeat;
-    background-size: cover;
-
-    left: 82vw;
-    bottom: -3vh;
+main ul {
+display: block;
 }
 
-.ytb {
-    position: relative;
-    width: 15vw;
-    height: 10vh;
-    background: url(../imagens/logo-youtube.jpg) no-repeat;
-    background-size: cover;
-
-    left: 82vw;
-    bottom: -5vh;
-}
-
-.git {
-    position: relative;
-    width: 15vw;
-    height: 10vh;
-    background: url(../imagens/logo-github.jpg) no-repeat;
-    background-size: cover;
-
-    left: 82vw;
-    bottom: -7vh;
-}
-
-.insta {
-    position: relative;
-    width: 15vw;
-    height: 10vh;
-    background: url(../imagens/logo-instagram.jpg) no-repeat;
-    background-size: cover;
-
-    left: 82vw;
-    bottom: -9vh;
-}
-
-.twit {
-    position: relative;
-    width: 15vw;
-    height: 10vh;
-    background: url(../imagens/logo-twitter.jpg) no-repeat;
-    background-size: cover;
-
-    left: 82vw;
-    bottom: -11vh;
-}
-
-.face {
-    position: relative;
-    width: 15vw;
-    height: 10vh;
-    background: url(../imagens/logo-facebook.jpg) no-repeat;
-    background-size: cover;
-
-    left: 82vw;
-    bottom: -13vh;
-}
